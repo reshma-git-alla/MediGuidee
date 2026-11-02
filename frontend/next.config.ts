@@ -1,0 +1,24 @@
+import type { NextConfig } from "next";
+import path from "node:path";
+
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  outputFileTracingRoot: path.join(process.cwd()),
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.cache = false;
+    }
+    return config;
+  },
+  async rewrites() {
+    const backendUrl = process.env.BACKEND_URL ?? "http://127.0.0.1:8000";
+    return [
+      {
+        source: "/api/:path*",
+        destination: `${backendUrl}/:path*`,
+      },
+    ];
+  },
+};
+
+export default nextConfig;

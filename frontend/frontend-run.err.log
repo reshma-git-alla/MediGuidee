@@ -1,0 +1,256 @@
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json',
+  page: '/chat'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json',
+  page: '/chat'
+}
+ ⨯ Error: Cannot find module './89.js'
+Require stack:
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\webpack-runtime.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\pages\_document.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\next.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16506)
+    at Object.<anonymous> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16554) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/chat'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+Error: Cannot find module './89.js'
+Require stack:
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\webpack-runtime.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\pages\_document.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\next.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16506)
+    at Object.<anonymous> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16554) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/chat'
+}
+ ⨯ Error: Cannot find module './89.js'
+Require stack:
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\webpack-runtime.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\pages\_document.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\next.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16506)
+    at Object.<anonymous> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16554) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/chat'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+Error: Cannot find module './89.js'
+Require stack:
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\webpack-runtime.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\pages\_document.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\next.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16506)
+    at Object.<anonymous> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16554) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/chat'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+ ⨯ Error: Cannot find module './89.js'
+Require stack:
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\webpack-runtime.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\pages\_document.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\next.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16506)
+    at Object.<anonymous> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16554) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/chat'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+Error: Cannot find module './89.js'
+Require stack:
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\webpack-runtime.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\pages\_document.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\next.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16506)
+    at Object.<anonymous> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\chat\page.js:2:16554) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/chat'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\routes-manifest.json'
+}
+ ⨯ Error: Cannot find module './89.js'
+Require stack:
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\webpack-runtime.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\pages\_document.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\next.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\page.js:2:8534)
+    at Object.<anonymous> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\page.js:2:8582) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\prerender-manifest.json'
+}
+Error: Cannot find module './89.js'
+Require stack:
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\webpack-runtime.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\pages\_document.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\config.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\next.js
+- C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\page.js:2:8534)
+    at Object.<anonymous> (C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\server\app\page.js:2:8582) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\frontend\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Reshma\\OneDrive\\Desktop\\3-2 intern project\\frontend\\.next\\prerender-manifest.json'
+}

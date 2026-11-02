@@ -1,0 +1,18 @@
+
+> mediguide-frontend@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3003
+
+   ▲ Next.js 15.5.19
+   - Local:        http://127.0.0.1:3003
+   - Network:      http://127.0.0.1:3003
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 8.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.6s (664 modules)
+ GET / 200 in 5433ms
+ ✓ Compiled in 849ms (259 modules)
+ ○ Compiling /chat ...
+ ✓ Compiled /chat in 6.9s (1042 modules)
+ GET /chat 200 in 7737ms

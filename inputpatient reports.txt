@@ -1,0 +1,2 @@
+input:patient reports 
+output :explanation of reports like what happens to patient and give suggestions/recommendation 

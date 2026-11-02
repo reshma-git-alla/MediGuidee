@@ -1,0 +1,65 @@
+INFO:     127.0.0.1:62508 - "POST /chat HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:64168 - "POST /chat HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:63642 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63642 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64960 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49280 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49693 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49962 - "POST /chat HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:59011 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "OPTIONS /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /chat HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:63862 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55999 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55999 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51417 - "POST /chat HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:53939 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50969 - "OPTIONS /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50969 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50969 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61506 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61506 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55567 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55567 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50467 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50467 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59200 - "POST /analyze-report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "POST /analyze-image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51954 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51954 - "GET /analysis-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51954 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51954 - "GET /analysis-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55475 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52567 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62017 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60994 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50970 - "OPTIONS /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50970 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50970 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53942 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54591 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54591 - "POST /chat HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:57087 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57087 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55159 - "POST /chat HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:49690 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56321 - "OPTIONS /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56321 - "POST /chat HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:50414 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50414 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64774 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64774 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65056 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65001 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52634 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52634 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64176 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64176 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64162 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50732 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54389 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54389 - "GET /analysis-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54389 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54389 - "GET /analysis-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53903 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59447 - "GET /history HTTP/1.1" 200 OK

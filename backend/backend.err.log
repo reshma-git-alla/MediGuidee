@@ -1,0 +1,317 @@
+INFO:     Started server process [15844]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-12 11:41:23,639 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 11:41:25,817 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-12 11:41:25,827 ERROR app.routers.chat: Chat generation failed
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 48, in _generate
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 5977, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 4940, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 785, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 714, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\errors.py", line 103, in raise_for_response
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\routers\chat.py", line 43, in chat
+    response_text = gemini_service.chat(payload.message, history)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 81, in chat
+    text = self._generate(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 58, in _generate
+    if exc.status_code not in {500, 503, 504}:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'ServerError' object has no attribute 'status_code'
+2026-06-12 11:42:18,099 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 11:42:20,291 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-12 11:42:20,298 ERROR app.routers.chat: Chat generation failed
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 48, in _generate
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 5977, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 4940, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 785, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 714, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\errors.py", line 103, in raise_for_response
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\routers\chat.py", line 43, in chat
+    response_text = gemini_service.chat(payload.message, history)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 81, in chat
+    text = self._generate(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 58, in _generate
+    if exc.status_code not in {500, 503, 504}:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'ServerError' object has no attribute 'status_code'
+2026-06-12 11:46:08,761 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 11:46:25,025 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 11:46:25,033 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 12:06:15,692 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 12:06:24,082 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 12:06:24,097 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 12:07:37,165 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 12:07:39,327 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-12 12:07:39,330 ERROR app.routers.chat: Chat generation failed
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 48, in _generate
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 5977, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 4940, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 785, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 714, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\errors.py", line 103, in raise_for_response
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\routers\chat.py", line 43, in chat
+    response_text = gemini_service.chat(payload.message, history)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 81, in chat
+    text = self._generate(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 58, in _generate
+    if exc.status_code not in {500, 503, 504}:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'ServerError' object has no attribute 'status_code'
+2026-06-12 12:16:28,763 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 12:16:31,525 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-12 12:16:31,528 ERROR app.routers.chat: Chat generation failed
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 48, in _generate
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 5977, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 4940, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 785, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 714, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\errors.py", line 103, in raise_for_response
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\routers\chat.py", line 43, in chat
+    response_text = gemini_service.chat(payload.message, history)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 81, in chat
+    text = self._generate(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 58, in _generate
+    if exc.status_code not in {500, 503, 504}:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'ServerError' object has no attribute 'status_code'
+2026-06-12 12:20:39,594 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 12:20:46,953 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 12:20:47,816 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 12:21:36,597 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 12:21:38,301 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-12 12:21:38,304 ERROR app.routers.chat: Chat generation failed
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 48, in _generate
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 5977, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 4940, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 785, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 714, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\errors.py", line 103, in raise_for_response
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\routers\chat.py", line 43, in chat
+    response_text = gemini_service.chat(payload.message, history)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 81, in chat
+    text = self._generate(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 58, in _generate
+    if exc.status_code not in {500, 503, 504}:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'ServerError' object has no attribute 'status_code'
+2026-06-12 14:18:39,120 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 14:18:48,869 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 14:18:48,875 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 14:19:08,102 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 14:19:15,493 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 14:19:15,496 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 14:19:43,222 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 14:19:52,151 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 14:19:52,154 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 14:20:06,858 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 14:20:15,500 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 14:20:15,503 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 14:37:02,078 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 14:37:13,557 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 14:37:13,565 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 14:42:04,615 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 14:42:19,113 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 14:42:19,117 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 16:08:47,897 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 16:08:55,466 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 16:08:55,471 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 16:13:39,490 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 16:13:40,958 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-12 16:13:40,962 ERROR app.routers.chat: Chat generation failed
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 48, in _generate
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 5977, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 4940, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 785, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 714, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\errors.py", line 103, in raise_for_response
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\routers\chat.py", line 43, in chat
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 81, in chat
+    text = self._generate(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 58, in _generate
+    if exc.status_code not in {500, 503, 504}:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'ServerError' object has no attribute 'status_code'
+2026-06-12 16:14:08,371 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 16:14:15,977 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 16:14:15,982 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 16:14:25,428 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 16:14:27,239 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-12 16:14:27,242 ERROR app.routers.chat: Chat generation failed
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 48, in _generate
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 5977, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 4940, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 785, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 714, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\errors.py", line 103, in raise_for_response
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\routers\chat.py", line 43, in chat
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 81, in chat
+    text = self._generate(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 58, in _generate
+    if exc.status_code not in {500, 503, 504}:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'ServerError' object has no attribute 'status_code'
+2026-06-12 16:20:34,954 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 16:20:36,902 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-12 16:20:36,907 ERROR app.routers.chat: Chat generation failed
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 48, in _generate
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 5977, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\models.py", line 4940, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 785, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\_api_client.py", line 714, in _request
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\.venv\Lib\site-packages\google\genai\errors.py", line 103, in raise_for_response
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\routers\chat.py", line 43, in chat
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 81, in chat
+    text = self._generate(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Reshma\OneDrive\Desktop\3-2 intern project\backend\app\services\gemini_service.py", line 58, in _generate
+    if exc.status_code not in {500, 503, 504}:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'ServerError' object has no attribute 'status_code'
+2026-06-12 16:20:52,850 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 16:21:00,658 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 16:21:00,663 INFO google_genai.models: AFC remote call 1 is done.
+2026-06-12 16:21:15,575 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-12 16:21:22,365 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-12 16:21:22,369 INFO google_genai.models: AFC remote call 1 is done.

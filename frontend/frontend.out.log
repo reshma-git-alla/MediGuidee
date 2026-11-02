@@ -1,0 +1,139 @@
+
+> mediguide-frontend@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+   ▲ Next.js 15.5.19
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 3.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.6s (665 modules)
+ ✓ Compiled in 304ms (259 modules)
+ GET / 200 in 6537ms
+ GET / 200 in 1194ms
+ GET / 200 in 2064ms
+ ○ Compiling /chat ...
+ ✓ Compiled /chat in 15.2s (1029 modules)
+ GET /chat 200 in 15604ms
+ GET /chat 200 in 50ms
+ GET /chat 200 in 48ms
+ GET /chat 200 in 40ms
+ GET /chat 200 in 42ms
+ GET /chat 200 in 40ms
+ GET /chat 200 in 38ms
+ GET /chat 200 in 41ms
+ GET /chat 200 in 38ms
+ GET /chat 200 in 39ms
+ GET /chat 200 in 31ms
+ GET /chat 200 in 29ms
+ GET /chat 200 in 33ms
+ GET /chat 200 in 27ms
+ GET /chat 200 in 36ms
+ GET /chat 200 in 33ms
+ GET /chat 200 in 28ms
+ GET /chat 200 in 31ms
+ GET /chat 200 in 27ms
+ GET /chat 200 in 25ms
+ GET / 200 in 1842ms
+   ▲ Next.js 15.5.19
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 25.4s (665 modules)
+ ✓ Compiled in 798ms (259 modules)
+ GET / 200 in 26380ms
+ ○ Compiling /chat ...
+ ✓ Compiled /chat in 10.8s (1029 modules)
+ GET /chat 200 in 11690ms
+ GET /chat 200 in 182ms
+ GET /chat 200 in 1393ms
+ GET /chat 200 in 2150ms
+ GET /chat 200 in 1611ms
+ GET /chat 200 in 687ms
+ GET /chat 200 in 365ms
+ GET /chat 200 in 352ms
+ GET /chat 200 in 247ms
+ GET /chat 200 in 269ms
+ GET /chat 200 in 391ms
+ GET /chat 200 in 313ms
+ ○ Compiling /report-analysis ...
+ ✓ Compiled /about in 15.9s (1114 modules)
+ GET /history 200 in 8439ms
+ GET /report-analysis 200 in 16497ms
+ GET /image-analysis 200 in 12606ms
+ GET /about 200 in 6805ms
+ GET /history 200 in 155ms
+ GET /image-analysis 200 in 167ms
+ GET /history 200 in 131ms
+ GET /image-analysis 200 in 92ms
+ GET /about 200 in 232ms
+ GET /image-analysis 200 in 57ms
+ GET /image-analysis 200 in 62ms
+ GET /image-analysis 200 in 62ms
+ GET /image-analysis 200 in 54ms
+ GET / 200 in 373ms
+ GET /history 200 in 219ms
+ GET / 200 in 397ms
+ GET /chat 200 in 248ms
+ GET /chat 200 in 676ms
+ ✓ Compiled in 3s (1077 modules)
+ ✓ Compiled in 1916ms (1077 modules)
+ GET /chat 200 in 1134ms
+ ✓ Compiled in 822ms (1063 modules)
+ GET /chat 200 in 727ms
+ GET /chat 200 in 645ms
+ ○ Compiling /report-analysis ...
+ ✓ Compiled /report-analysis in 5.8s (634 modules)
+ GET /report-analysis 200 in 6579ms
+ GET /report-analysis 200 in 269ms
+ ○ Compiling /image-analysis ...
+ ✓ Compiled /image-analysis in 1557ms (636 modules)
+ GET /image-analysis 200 in 3762ms
+ GET /report-analysis 200 in 3566ms
+ GET /image-analysis 200 in 213ms
+ GET /report-analysis 200 in 221ms
+ GET /image-analysis 200 in 246ms
+ GET /report-analysis 200 in 193ms
+ GET /image-analysis 200 in 207ms
+ GET /report-analysis 200 in 151ms
+ GET /report-analysis 200 in 202ms
+ GET /image-analysis 200 in 90ms
+ ○ Compiling /history ...
+ ✓ Compiled /history in 1233ms (645 modules)
+ GET /history 200 in 1571ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 965ms (653 modules)
+ GET /about 200 in 1353ms
+ GET /image-analysis 200 in 85ms
+ GET /chat 200 in 80ms
+ GET / 200 in 145ms
+ GET /chat 200 in 123ms
+ GET / 200 in 140ms
+ GET /chat 200 in 95ms
+ GET /chat 200 in 805ms
+ GET / 200 in 106ms
+ GET / 200 in 274ms
+ GET /chat 200 in 85ms
+ GET / 200 in 114ms
+ GET /chat 200 in 72ms
+ GET / 200 in 83ms
+ GET /chat 200 in 76ms
+ GET / 200 in 98ms
+ GET /chat 200 in 72ms
+ GET /report-analysis 200 in 121ms
+ GET /image-analysis 200 in 89ms
+ GET /history 200 in 102ms
+ GET /about 200 in 111ms
+ GET /chat 200 in 89ms
